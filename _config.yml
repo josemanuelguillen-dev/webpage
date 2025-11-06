@@ -4,3 +4,5 @@ description: Página creada con Jekyll y GitHub Pages
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+
