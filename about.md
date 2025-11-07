@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acerca de
+title: Acerca de las cosas
 permalink: /acercade/
 ---
 
