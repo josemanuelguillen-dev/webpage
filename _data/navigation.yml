@@ -1,0 +1,7 @@
+main:
+  - title: "Inicio"
+    url: /
+  - title: "Sobre mí"
+    url: /acercade/
+  - title: "Contacto"
+    url: /contacto/
