@@ -1,8 +1,8 @@
 ---
 layout: splash
-title: Inicio
+title: Inicioo
 header:
-  overlay_color: "#000"
+  overlay_color: "#fff"
   overlay_filter: "0"
   overlay_image: https://3.bp.blogspot.com/-wdk8M3w2JW0/VV8W1VwtVUI/AAAAAAAACLM/XUjxSpGrSXo/s320/LOGO%2BPRINCIPAL.bmp
 caption: "La foto la echó Perico de los palotes"
