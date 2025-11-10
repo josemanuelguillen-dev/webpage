@@ -4,7 +4,7 @@ title: Inicioo
 header:
   overlay_color: "#fff"
   overlay_filter: "0"
-  overlay_image: /assets/images/LOGO_FP_SALCEDA3.jpg
+  overlay_image: /assets/images/LOGO_FP_SALCEDA4.jpg
 caption: "La foto la echó Perico de los palotes"
 excerpt: "Logo del centro educativo FPS"
 ---
