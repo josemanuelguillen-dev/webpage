@@ -1,9 +1,15 @@
 ---
-layout: default
-title: Página de contacto de merde
+layout: splash
+title: Contacto
 permalink: /contacto/
 ---
 
-Contenido de la página Contacto de mierda.
+Para ponerte en contacto con nosotros puedes:
 
-Estoy añadiendo contenido y no se carga ni da ningún error. ¿q está sucediento?
+Llamarnos por teléfono: 968 627 319
+ 
+Enviarnos un correo electrónico: 30008947@murciaeduca.es
+ 
+Para enviar curriculum, envía un correo al siguiente e-mail: curriculum.fpsalceda@gmail.com
+ 
+Formulario de Contacto (En contrucción)
