@@ -28,14 +28,14 @@ toc: true
 
 ## Cuidados Auxiliares de Enfermería
 |Curso |	Módulo Profesional |	Horas totales |
-|1|	Operaciones administrativas y documentación sanitaria |	65
-|1|	Técnicas básicas de enfermería |	350
-|1|	Higiene del medio hospitalario y limpieza de material |	155
-|1|	Promoción de la salud y apoyo psicológico al paciente |	130
-|1|	Técnicas de ayuda odontológica/estomatológica |	130
-|1|	Relaciones en el equipo de trabajo |	65
-|1|	Itinerario personal para la Empleabilidad | 65
-|2|	Formación en centros de trabajo |	440
+|1|	Operaciones administrativas y documentación sanitaria |	65|
+|1|	Técnicas básicas de enfermería |	350|
+|1|	Higiene del medio hospitalario y limpieza de material |	155|
+|1|	Promoción de la salud y apoyo psicológico al paciente |	130|
+|1|	Técnicas de ayuda odontológica/estomatológica |	130|
+|1|	Relaciones en el equipo de trabajo |	65|
+|1|	Itinerario personal para la Empleabilidad | 65|
+|2|	Formación en centros de trabajo |	440|
 
 # C.F. de Grado Básico
 ## Informática de oficina
