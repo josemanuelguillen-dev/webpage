@@ -1,15 +1,15 @@
 ---
 layout: splash
-title: Inicioo
+title: 
 header:
   overlay_color: "#fff"
   overlay_filter: "0"
   overlay_image: /assets/images/LOGO_FP_SALCEDA6.jpg
-caption: "La foto la echó Perico de los palotes"
-excerpt: "Logo del centro educativo FPS"
+caption: "Imagen corporativa"
+excerpt: "Imagen corporativa"
 ---
 
-# ¡Bienvenido a mi sitio web: JOSE MANUEL GUILLÉN!
+# ¡Bienvenido!
 
 Esta es una página web de mierda creada por mí con Jekyll y Github Pages
 
