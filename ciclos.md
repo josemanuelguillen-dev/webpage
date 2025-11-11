@@ -8,6 +8,7 @@ toc: true
 # C.F. de Grado Medio
 ## Gestión Administrativa
 |Curso |	Módulo Profesional |	Horas totales |
+|---|---|---|
 |1|	Comunicación empresarial y atención al cliente |	135 |
 |1|	Operaciones administrativas de compra-venta |	175 |
 |1|	Empresa y Administración |	105 |
@@ -28,6 +29,7 @@ toc: true
 
 ## Cuidados Auxiliares de Enfermería
 |Curso |	Módulo Profesional |	Horas totales |
+|---|---|---|
 |1|	Operaciones administrativas y documentación sanitaria |	65|
 |1|	Técnicas básicas de enfermería |	350|
 |1|	Higiene del medio hospitalario y limpieza de material |	155|
@@ -40,6 +42,7 @@ toc: true
 # C.F. de Grado Básico
 ## Informática de oficina
 | Curso |	Módulo Profesional | 	Horas totales |
+|---|---|---|
 |1| Montaje y mantenimiento de sistemas y componentes informáticos |	375 |
 |1|	Ciencias aplicadas |	140 |
 |1|	Comunicación y sociedad |	140 |
@@ -55,6 +58,7 @@ toc: true
 
 ## Servicios administrativos
 | Curso |	Módulo Profesional |	Horas totales |
+|---|---|---|
 |1|	Tratamiento informático de datos |	300 |
 |1|	Técnicas administrativas básicas |	260 |
 |1|	Atención al cliente |	75 |
@@ -72,6 +76,7 @@ toc: true
 
 ## Alojamiento y lavandería
 |Curso|	Módulo Profesional |	Horas totales |
+|---|---|---|
 |1|	Materiales y productos textiles |	115 |
 |1|	Lavado y secado de ropa |	185 |
 |1|	Planchado y embolsado de ropa |	185 |
