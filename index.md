@@ -1,8 +1,6 @@
 ---
-layout: splash
+layout: single
 classes:
-  - landing
-  - dark-theme
   - wide
 header:
   overlay_color: "#fff"
