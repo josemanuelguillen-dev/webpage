@@ -1,6 +1,5 @@
 ---
 layout: splash
-title: ""
 header:
   overlay_color: "#fff"
   overlay_filter: "0"
