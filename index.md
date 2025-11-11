@@ -1,5 +1,9 @@
 ---
 layout: splash
+classes:
+  - landing
+  - dark-theme
+  - wide
 header:
   overlay_color: "#fff"
   overlay_filter: "0"
