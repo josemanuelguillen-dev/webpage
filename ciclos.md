@@ -13,6 +13,12 @@ toc_label: Selecciona tu ciclo
 
 ### Competencia general
 
+.Competencia general.  entre puntos
+
+<b>Competencia general</b> con tag b
+
+<strong>Competencia general</strong> con tag strong
+
 La competencia general de este título consiste en realizar actividades de apoyo administrativo en el ámbito laboral, contable, comercial, financiero y fiscal, así como de atención al cliente/usuario, tanto en empresas públicas como privadas, aplicando la normativa vigente y protocolos de calidad, asegurando la satisfacción del cliente y actuando según normas de prevención de riesgos laborales y protección ambiental.
 
 
