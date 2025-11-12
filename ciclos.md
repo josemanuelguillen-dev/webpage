@@ -10,9 +10,7 @@ toc_label: Selecciona tu ciclo
 # C.F. de Grado Medio
 
 ## Gestión Administrativa
-
 <strong>Competencia general</strong>
-
 La competencia general de este título consiste en realizar actividades de apoyo administrativo en el ámbito laboral, contable, comercial, financiero y fiscal, así como de atención al cliente/usuario, tanto en empresas públicas como privadas, aplicando la normativa vigente y protocolos de calidad, asegurando la satisfacción del cliente y actuando según normas de prevención de riesgos laborales y protección ambiental.
 
 
