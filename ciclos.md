@@ -47,6 +47,9 @@ toc_label: Selecciona tu ciclo
 
 ## Informática de oficina
 
+### COMPETENCIA GENERAL
+La competencia general de este título consiste en realizar operaciones auxiliares de montaje y mantenimiento de sistemas microinformáticos, periféricos y redes de comunicación de datos, y de tratamiento, reproducción y archivo de documentos, operando con la calidad indicada y actuando en condiciones de seguridad y de protección ambiental con responsabilidad e iniciativa personal y comunicándose de forma oral y escrita en lengua castellana y en su caso en la lengua cooficial propia así como en alguna lengua extranjera.
+
 | Curso |	Módulo Profesional | 	Horas totales |
 |---|---|---|
 |1| Montaje y mantenimiento de sistemas y componentes informáticos |	375 |
@@ -61,6 +64,18 @@ toc_label: Selecciona tu ciclo
 |2|	Comunicación y sociedad | 130 |
 |2|	Tutoría |	30 |
 |2|	Proyecto intermodular de aprendizaje colaborativo |	50 |
+
+### OCUPACIONES MÁS RELEVANTES
+
+* Ayudante de montador de sistemas microinformáticos.
+* Ayudante de mantenimiento de sistemas informáticos.
+* Ayudante de instalador de sistemas informáticos.
+* Ayudante de instalador de sistemas para transmisión de datos.
+* Auxiliar de oficina.
+* Auxiliar de servicios generales.
+* Grabadorverificador de datos.
+* Auxiliar de digitalización.
+* Operador documental.
 
 ## Servicios administrativos
 
