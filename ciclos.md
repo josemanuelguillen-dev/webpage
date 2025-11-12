@@ -11,13 +11,7 @@ toc_label: Selecciona tu ciclo
 
 ## Gestión Administrativa
 
-### Competencia general
-
-.Competencia general.  entre puntos
-
-<b>Competencia general</b> con tag b
-
-<strong>Competencia general</strong> con tag strong
+<strong>Competencia general</strong>
 
 La competencia general de este título consiste en realizar actividades de apoyo administrativo en el ámbito laboral, contable, comercial, financiero y fiscal, así como de atención al cliente/usuario, tanto en empresas públicas como privadas, aplicando la normativa vigente y protocolos de calidad, asegurando la satisfacción del cliente y actuando según normas de prevención de riesgos laborales y protección ambiental.
 
@@ -62,7 +56,7 @@ Las ocupaciones y puestos de trabajo más relevantes son los siguientes:
 
 ## Cuidados Auxiliares de Enfermería
 
-### Competencia general
+<strong>Competencia general</strong>
 
 Los requerimientos generales de cualificación profesional del sistema productivo para este técnico son: Proporcionar cuidados al paciente / cliente y actuar sobre las condiciones sanitarias de su entorno como miembro de un equipo de enfermería o en los centros sanitarios de atención especializada y de atención primaria, bajo la dependencia del diplomado en enfermería o, en su caso, como miembro de un equipo de salud en la asistencia sanitaria derivada de la práctica del ejercicio liberal, bajo la supervisión correspondiente.
 
@@ -108,7 +102,8 @@ A título de ejemplo y con fines de orientación profesional se enumeran a conti
 
 ## Informática de oficina
 
-### Competencia general
+<strong>Competencia general</strong>
+
 La competencia general de este título consiste en realizar operaciones auxiliares de montaje y mantenimiento de sistemas microinformáticos, periféricos y redes de comunicación de datos, y de tratamiento, reproducción y archivo de documentos, operando con la calidad indicada y actuando en condiciones de seguridad y de protección ambiental con responsabilidad e iniciativa personal y comunicándose de forma oral y escrita en lengua castellana y en su caso en la lengua cooficial propia así como en alguna lengua extranjera.
 
 | Curso |	Módulo Profesional | 	Horas totales |
@@ -139,7 +134,8 @@ La competencia general de este título consiste en realizar operaciones auxiliar
 * Operador documental.
 
 ## Servicios administrativos
-### Competencia general
+<strong>Competencia general</strong>
+
 La competencia general del título consiste en realizar tareas administrativas y de gestión básicas, con autonomía con responsabilidad e iniciativa personal, operando con la calidad indicada, observando las normas de aplicación vigente medioambientales y de seguridad e higiene en el trabajo y comunicándose de forma oral y escrita en lengua castellana y, en su caso, en la lengua cooficial propia así como en alguna lengua extranjera.
 
 
@@ -179,7 +175,8 @@ Este profesional ejerce su actividad por cuenta ajena en centros, oficinas, desp
 * Operador/a de cobro o Cajero/a.
 
 ## Alojamiento y lavandería
-### Competencia general
+<strong>Competencia general</strong>
+
 La competencia general del título consiste en realizar con autonomía la limpieza y puesta a punto de las habitaciones en alojamientos turísticos o de otra índole y de las áreas comunes de éstos, cuidando el buen estado de instalaciones y mobiliario, así como realizar las operaciones de clasificación, lavado y limpieza de artículos textiles en instalaciones industriales, asistiendo en los procesos de servicio y atención al cliente, siguiendo los protocolos de calidad establecidos, observando las normas de higiene, prevención de riesgos laborales y protección medioambiental, con responsabilidad e iniciativa personal y comunicándose de forma oral y escrita en lengua castellana y en su caso en la lengua cooficial propia así como en alguna lengua extranjera.
 
 
