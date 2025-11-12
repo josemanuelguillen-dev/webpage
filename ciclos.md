@@ -1,10 +1,11 @@
 ---
 layout: single
-title: Ciclos formativos
+title: CICLOS FORMATIVOS
 permalink: ciclos/
 toc: true
 toc_label: Selecciona tu ciclo
 ---
+
 
 # C.F. de Grado Medio
 
