@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CICLOS FORMATIVOS
+title: Ciclos formativos
 permalink: ciclos/
 toc: true
 toc_label: Selecciona tu ciclo
