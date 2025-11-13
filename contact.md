@@ -4,8 +4,6 @@ title: Contacto
 permalink: /contacto/
 ---
 
-# Contacto
-
 Para ponerte en contacto con nosotros puedes:
 
 Llamarnos por teléfono: <strong>968 627 319</strong>
