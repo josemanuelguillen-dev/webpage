@@ -57,15 +57,15 @@ El Centro abre sus puertas a la 8:00 horas y las cierra a las 14:00 horas
 
 ## Horario de actividades lectivas
 
-Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de la mañana y finalizará a las 14:00 horas, existiendo un recreo de 30 minutos que se realizará desde las 10:45 horas  hasta las 11:15 horas
+Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de la mañana y finalizará a las 14:00 horas, existiendo un recreo de 30 minutos que se realizará desde las 10:45 horas  hasta las 11:15 horas.
 
-* 1ª HORA DE 8: 00 A 8:55
-* 2ª HORA DE 8:55 A 9:50
-* 3ª HORA DE 9:50 A 10:45
-* RECREO DE 10:45 A 11:15
-* 4ª HORA DE 11:15 A 12:10
-* 5ª HORA DE 12:10 A 13:05
-* 6ª HORA DE 13:05 A 14:00
+* 1ª hora DE 8: 00 A 8:55
+* 2ª hora DE 8:55 A 9:50
+* 3ª hora DE 9:50 A 10:45
+* Recreo de 10:45 A 11:15
+* 4ª hora DE 11:15 A 12:10
+* 5ª hora DE 12:10 A 13:05
+* 6ª hora DE 13:05 A 14:00
 
 ## Calendario 2025/26
 
@@ -73,7 +73,7 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 
 # Libros de texto
 
-## NORMAS DE USO Y CONSERVACIÓN
+## Normas de uso y conservación
 
 * Los libros pertenecen al centro y se entregan como préstamo.
 * El alumno es el responsable del lote de libros que se le entrega
@@ -96,27 +96,26 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 * <strong>Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato</strong>.
 * Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
 
-## LISTADO DE LIBROS DE TEXTO 25/26
+## Listado de libros de texto 25/26
 
-[Documento con el listado de los libros del curso actual](https://docs.google.com/spreadsheets/d/1-DwRph4dCdZr5hiI9Jg9eGgH4YAuqw83KUwyNpE16lo/edit?gid=0#gid=0)
-
+[Listado de los libros del curso actual](https://docs.google.com/spreadsheets/d/1-DwRph4dCdZr5hiI9Jg9eGgH4YAuqw83KUwyNpE16lo/edit?gid=0#gid=0)
 
 # Encuestas de evaluación
 
 ## Encuestas para alumnos
 
-*[Sobre el centro](https://forms.gle/wb2s21ahSB3reZNz8)
-*[Sobre el equipo directivo](https://forms.gle/wPxhrM5Jwu1JiuTM7)
-*[Sobre tutores y tutoría](https://forms.gle/AYUmguuAQV6zmwqY8)
-*[Sobre los profesores y la práctica docente](https://forms.gle/b2AedqQq7qvA2fBD9)
-*[Sobre la FCT y prácticas en empresas](https://forms.gle/2URN7a22BV1X5FT39)
+* [Sobre el centro](https://forms.gle/wb2s21ahSB3reZNz8)
+* [Sobre el equipo directivo](https://forms.gle/wPxhrM5Jwu1JiuTM7)
+* [Sobre tutores y tutoría](https://forms.gle/AYUmguuAQV6zmwqY8)
+* [Sobre los profesores y la práctica docente](https://forms.gle/b2AedqQq7qvA2fBD9)
+* [Sobre la FCT y prácticas en empresas](https://forms.gle/2URN7a22BV1X5FT39)
 
 ## Encuestas para familias
 
-*[Sobre el centro](https://forms.gle/NGHJcCDaUqvZcjN58)
-*[Sobre el equipo directivo](https://forms.gle/H8gUEyNzqQmCojB57)
-*[Sobre tutores y tutoría](https://forms.gle/wFQHes9GojRC2XfM9)
+* [Sobre el centro](https://forms.gle/NGHJcCDaUqvZcjN58)
+* [Sobre el equipo directivo](https://forms.gle/H8gUEyNzqQmCojB57)
+* [Sobre tutores y tutoría](https://forms.gle/wFQHes9GojRC2XfM9)
 
-## ENCUESTAS PARA EMPRESAS E INSTITUCIONES
+## Encuestas para empresas e instituciones
 
-*[Para empresas e instituciones: Sobre la FCT y prácticas(https://forms.gle/DbKqkJeptfbvJVFB7)
+* [Para empresas e instituciones: Sobre la FCT y prácticas(https://forms.gle/DbKqkJeptfbvJVFB7)
