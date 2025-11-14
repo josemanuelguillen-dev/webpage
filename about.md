@@ -25,7 +25,7 @@ II. Que  el alumno  adquiera una formación integral de su persona,  fomentando 
 
 # Secretaría
 
-* DOCUMENTACIÓN PARA LA MATRICULACIÓN PRÓXIMO CURSO 2024/25
+* [Documentación para la matriculación del curso 2025/26](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/DOCUMENTACION_NECESARIA_MATRICULACION.pdf)
 
 ## Archivos disponibles para descargar:
 
