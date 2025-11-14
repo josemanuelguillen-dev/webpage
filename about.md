@@ -118,4 +118,4 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 
 ## Encuestas para empresas e instituciones
 
-* [Para empresas e instituciones: Sobre la FCT y prácticas(https://forms.gle/DbKqkJeptfbvJVFB7)
+* [Para empresas e instituciones: Sobre la FCT y prácticas](https://forms.gle/DbKqkJeptfbvJVFB7)
