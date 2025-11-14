@@ -104,18 +104,18 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 
 ## Encuestas para alumnos
 
-SOBRE EL CENTRO
-SOBRE EL EQUIPO DIRECTIVO
-SOBRE TUTORES Y TUTORÍA
-SOBRE LOS PROFESORES Y LA PRÁCTICA DOCENTE
-SOBRE LA FCT Y PRÁCTICAS EN EMPRESAS
+*[Sobre el centro](https://forms.gle/wb2s21ahSB3reZNz8)
+*[Sobre el equipo directivo](https://forms.gle/wPxhrM5Jwu1JiuTM7)
+*[Sobre tutores y tutoría](https://forms.gle/AYUmguuAQV6zmwqY8)
+*[Sobre los profesores y la práctica docente](https://forms.gle/b2AedqQq7qvA2fBD9)
+*[Sobre la FCT y prácticas en empresas](https://forms.gle/2URN7a22BV1X5FT39)
 
 ## Encuestas para familias
 
-SOBRE EL CENTRO
-SOBRE EL EQUIPO DIRECTIVO
-SOBRE TUTORES Y TUTORÍA
+*[Sobre el centro](https://forms.gle/NGHJcCDaUqvZcjN58)
+*[Sobre el equipo directivo](https://forms.gle/H8gUEyNzqQmCojB57)
+*[Sobre tutores y tutoría](https://forms.gle/wFQHes9GojRC2XfM9)
 
 ## ENCUESTAS PARA EMPRESAS E INSTITUCIONES
 
-PARA EMPRESAS E INSTITUCIONES: SOBRE LA FCT Y PRÁCTICAS
+*[Para empresas e instituciones: Sobre la FCT y prácticas(https://forms.gle/DbKqkJeptfbvJVFB7)
