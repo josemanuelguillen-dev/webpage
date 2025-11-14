@@ -6,7 +6,7 @@ classes:
 header:
   overlay_color: "#fff"
   overlay_filter: "0"
-  overlay_image: /assets/images/LOGO_FP_SALCEDA9.png
+  overlay_image: /assets/images/LOGO_FP_SALCEDA9.jpg
 caption: ""
 excerpt: ""
 ---
