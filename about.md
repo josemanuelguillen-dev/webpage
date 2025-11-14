@@ -38,7 +38,7 @@ II. Que  el alumno  adquiera una formación integral de su persona,  fomentando 
   
 <strong>Formación profesional básica:</strong>
 
-* [MATRÍCULA FP BÁSICA](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/IMPRESO_MATRI769CULA_COVID_2.pdf)
+* [Documentación necesaria la matrícula de FP Básica](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/IMPRESO_MATRI769CULA_COVID_2.pdf)
 
 <strong>Impresos comunes a todas las enseñanzas:</strong>
 
@@ -75,32 +75,25 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 
 ## NORMAS DE USO Y CONSERVACIÓN
 
--Los libros pertenecen al centro y se entregan como préstamo.
+* Los libros pertenecen al centro y se entregan como préstamo.
+* El alumno es el responsable del lote de libros que se le entrega
+* Es obligatorio, por parte del alumno, forrar los libros con plástico transparente para su mejor conservación.
+* Tras ser forrados, el tutor/a pondrá una pegatina blanca en el exterior del libro con los datos identificativos del alumno y el curso. En ningún caso, el alumno escribirá su nombre en el libro, siempre se hará sobre la pegatina.
+* Los libros no pueden ser subrayados con lápiz. No está permitido tampoco usar otro tipo de material como bolígrafo, rotulador, marcador, etc..
 
--El alumno es el responsable del lote de libros que se le entrega
+* Se considera mal uso o deterioro del libro de texto:
+**Realizar ejercicios en el propio libro
+**Escribir palabras y mensajes en cualquier formato
+**Hacer dibujos o poner pegatinas
+**Doblar las hojas para marcar los temas
+**Ensuciar las páginas con cualquier producto
+**Romper, arrugar o mojar cualquier hoja del libro
+**Utilizar el libro sin forrar
 
--Es obligatorio, por parte del alumno, forrar los libros con plástico transparente para su mejor conservación.
-
--Tras ser forrados, el tutor/a pondrá una pegatina blanca en el exterior del libro con los datos identificativos del alumno y el curso. En ningún caso, el alumno escribirá su nombre en el libro, siempre se hará sobre la pegatina.
-
--Los libros no pueden ser subrayados con lápiz. No está permitido tampoco usar otro tipo de material como bolígrafo, rotulador, marcador, etc..
-
--Se considera mal uso o deterioro del libro de texto:
-
-Realizar ejercicios en el propio libro
-Escribir palabras y mensajes en cualquier formato
-Hacer dibujos o poner pegatinas
-Doblar las hojas para marcar los temas
-Ensuciar las páginas con cualquier producto
-Romper, arrugar o mojar cualquier hoja del libro
-Utilizar el libro sin forrar
--El deterioro de materiales por mala utilización o la pérdida de los mismos, supondrá la reposición económica del material deteriorado o perdido por parte de sus padres o representantes legales.
-
--El no complimiento de estas normas sobre uso y conservación de los libros de texto supondrá la aplicación de la  medida correctora correspondiente de las faltas contra las normas de convivencia  de los Centros Escolares de la Región de Murcia recogidas en los Arts. 30, 33 y 35 del Decreto 16/2016 de Convivencia Escolar.
-
--Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato.
-
--Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
+*El deterioro de materiales por mala utilización o la pérdida de los mismos, supondrá la <strong>reposición económica del material deteriorado o perdido por parte de sus padres o representantes legales</strong>.
+*El no complimiento de estas normas sobre uso y conservación de los libros de texto supondrá la aplicación de la  <strong>medida correctora correspondiente de las faltas contra las normas de convivencia  de los Centros Escolares de la Región de Murcia recogidas en los Arts. 30, 33 y 35 del Decreto 16/2016 de Convivencia Escolar</strong>.
+*<strong>Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato</strong>.
+*Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
 
 ## LISTADO DE LIBROS DE TEXTO 25/26
 
