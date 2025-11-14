@@ -91,10 +91,10 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
   * Romper, arrugar o mojar cualquier hoja del libro
   * Utilizar el libro sin forrar
 
-*El deterioro de materiales por mala utilización o la pérdida de los mismos, supondrá la <strong>reposición económica del material deteriorado o perdido por parte de sus padres o representantes legales</strong>.
-*El no complimiento de estas normas sobre uso y conservación de los libros de texto supondrá la aplicación de la  <strong>medida correctora correspondiente de las faltas contra las normas de convivencia  de los Centros Escolares de la Región de Murcia recogidas en los Arts. 30, 33 y 35 del Decreto 16/2016 de Convivencia Escolar</strong>.
-*<strong>Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato</strong>.
-*Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
+* El deterioro de materiales por mala utilización o la pérdida de los mismos, supondrá la <strong>reposición económica del material deteriorado o perdido por parte de sus padres o representantes legales</strong>.
+* El no complimiento de estas normas sobre uso y conservación de los libros de texto supondrá la aplicación de la  <strong>medida correctora correspondiente de las faltas contra las normas de convivencia  de los Centros Escolares de la Región de Murcia recogidas en los Arts. 30, 33 y 35 del Decreto 16/2016 de Convivencia Escolar</strong>.
+* <strong>Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato</strong>.
+* Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
 
 ## LISTADO DE LIBROS DE TEXTO 25/26
 
