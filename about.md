@@ -25,27 +25,27 @@ II. Que  el alumno  adquiera una formación integral de su persona,  fomentando 
 
 # Secretaría
 
-* [Documentación para la matriculación del curso 2025/26](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/DOCUMENTACION_NECESARIA_MATRICULACION.pdf)
+## Sección de descargas
 
-## Archivos disponibles para descargar:
+* [Documentación para la matriculación del curso 2025/26](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/DOCUMENTACION_NECESARIA_MATRICULACION.pdf)
 
 <strong>CICLOS FORMATIVOS DE GRADO MEDIO (CFGM):</strong>
 
-* SOLICITUD DE  TÍTULOS CFGM
-* INSTRUCCIONES  SOLICITUD DE TÍTULOS CFGM
-* MATRÍCULA CICLOS FORMATIVOS DE GRADO MEDIO
-* AUTORIZACIÓN SALIDA ÚLTIMA HORA CFGM
+* [SOLICITUD DE  TÍTULOS CFGM](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/SOLICITUD_TITULO_TECNICO_FP_GM.pdf)
+* [INSTRUCCIONES  SOLICITUD DE TÍTULOS CFGM](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/INSTRUCCIONES_SOLICITUD_TITULO.pdf)
+* [MATRÍCULA CICLOS FORMATIVOS DE GRADO MEDIO](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/IMPRESO_MATRI769CULA_COVID_2.pdf)
+* [AUTORIZACIÓN SALIDA ÚLTIMA HORA CFGM](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/PG04PLANT45_Plantilla_autorizacion_salida_a_ultima_hora_del_periodo_lectivo_por_ausencia_del_profesor_CFGM.docx)
   
 <strong>FORMACIÓN PROFESIONAL BÁSICA:</strong>
 
-* MATRÍCULA FP BÁSICA
+* [MATRÍCULA FP BÁSICA](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/IMPRESO_MATRI769CULA_COVID_2.pdf)
 
 <strong>IMPRESOS COMUNES A TODAS LAS ENSEÑANZAS:</strong>
 
-* JUSTIFICANTE DE FALTAS
-* JUSTIFICANTES DE RETRASOS
-* JUSTIFICANTES DE SALIDAS EXTRAORDINARIAS
-* AUTORIZACIÓN GENERAL DE SALIDAS
+* [JUSTIFICANTE DE FALTAS](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/JUSTIFICANTES_DE_FALTAS.docx)
+* [JUSTIFICANTES DE RETRASOS](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/RETRASOS.docx)
+* [JUSTIFICANTES DE SALIDAS EXTRAORDINARIAS](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/PARTE_DE_SALIDA_EXTRAORDINARIA.docx)
+* [AUTORIZACIÓN GENERAL DE SALIDAS](https://www.murciaeduca.es/cfpntrasradelasalceda/sitio/upload/PG04PLANT19_Plantilla_autorizacion_general_de_salidas.docx)
 
 # Horario y calendario
 
