@@ -9,5 +9,6 @@ plugins:
 header_pages:
   - index.md
   - ciclos.md
+  - noticias.md
   - about.md
   - contact.md
