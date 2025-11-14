@@ -5,5 +5,7 @@ main:
     url: /ciclos/
   - title: "Nuestro centro"
     url: /acercade/
+  - title: "Noticias"
+    url: /noticias/
   - title: "Contacto"
     url: /contacto/
