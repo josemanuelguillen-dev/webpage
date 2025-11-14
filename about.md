@@ -2,6 +2,9 @@
 layout: single
 title: Nuestro centro
 permalink: /acercade/
+toc: true
+toc_sticky: true
+toc_label: "Contenido"
 ---
 
 # Señas de identidad
@@ -20,3 +23,106 @@ I. Conseguir que el alumno adquiera una formación profesional suficiente habili
 
 II. Que  el alumno  adquiera una formación integral de su persona,  fomentando en él valores tales como: tolerancia, solidaridad, responsabilidad, compromiso, respeto.....Valores que fomenten  su desarrollo como individuo y le ayuden a afrontar los retos que presenta la sociedad actual.
 
+# Secretaría
+
+* DOCUMENTACIÓN PARA LA MATRICULACIÓN PRÓXIMO CURSO 2024/25
+
+## Archivos disponibles para descargar:
+
+<strong>CICLOS FORMATIVOS DE GRADO MEDIO (CFGM):</strong>
+
+* SOLICITUD DE  TÍTULOS CFGM
+* INSTRUCCIONES  SOLICITUD DE TÍTULOS CFGM
+* MATRÍCULA CICLOS FORMATIVOS DE GRADO MEDIO
+* AUTORIZACIÓN SALIDA ÚLTIMA HORA CFGM
+  
+<strong>FORMACIÓN PROFESIONAL BÁSICA:</strong>
+
+* MATRÍCULA FP BÁSICA
+
+<strong>IMPRESOS COMUNES A TODAS LAS ENSEÑANZAS:</strong>
+
+* JUSTIFICANTE DE FALTAS
+* JUSTIFICANTES DE RETRASOS
+* JUSTIFICANTES DE SALIDAS EXTRAORDINARIAS
+* AUTORIZACIÓN GENERAL DE SALIDAS
+
+# Horario y calendario
+
+## Horario general del centro
+
+El desarrollo de las actividades docentes del Centro se realizará en jornada continua de mañana (Turno diurno).
+
+El Centro abre sus puertas a la 8:00 horas y las cierra a las 14:00 horas
+
+## Horario de actividades lectivas
+
+Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de la mañana y finalizará a las 14:00 horas, existiendo un recreo de 30 minutos que se realizará desde las 10:45 horas  hasta las 11:15 horas
+
+* 1ª HORA DE 8: 00 A 8:55
+* 2ª HORA DE 8:55 A 9:50
+* 3ª HORA DE 9:50 A 10:45
+* RECREO DE 10:45 A 11:15
+* 4ª HORA DE 11:15 A 12:10
+* 5ª HORA DE 12:10 A 13:05
+* 6ª HORA DE 13:05 A 14:00
+
+## Calendario 2025/26
+
+[Calendario escolar](https://docs.google.com/spreadsheets/d/1e7MxUE9-n5p8SkQr96rOh2rcyTZyXdMp/edit?gid=1946417995#gid=1946417995])
+
+# Libros de texto
+
+## NORMAS DE USO Y CONSERVACIÓN
+
+-Los libros pertenecen al centro y se entregan como préstamo.
+
+-El alumno es el responsable del lote de libros que se le entrega
+
+-Es obligatorio, por parte del alumno, forrar los libros con plástico transparente para su mejor conservación.
+
+-Tras ser forrados, el tutor/a pondrá una pegatina blanca en el exterior del libro con los datos identificativos del alumno y el curso. En ningún caso, el alumno escribirá su nombre en el libro, siempre se hará sobre la pegatina.
+
+-Los libros no pueden ser subrayados con lápiz. No está permitido tampoco usar otro tipo de material como bolígrafo, rotulador, marcador, etc..
+
+-Se considera mal uso o deterioro del libro de texto:
+
+Realizar ejercicios en el propio libro
+Escribir palabras y mensajes en cualquier formato
+Hacer dibujos o poner pegatinas
+Doblar las hojas para marcar los temas
+Ensuciar las páginas con cualquier producto
+Romper, arrugar o mojar cualquier hoja del libro
+Utilizar el libro sin forrar
+-El deterioro de materiales por mala utilización o la pérdida de los mismos, supondrá la reposición económica del material deteriorado o perdido por parte de sus padres o representantes legales.
+
+-El no complimiento de estas normas sobre uso y conservación de los libros de texto supondrá la aplicación de la  medida correctora correspondiente de las faltas contra las normas de convivencia  de los Centros Escolares de la Región de Murcia recogidas en los Arts. 30, 33 y 35 del Decreto 16/2016 de Convivencia Escolar.
+
+-Una vez finalizado en curso académico los libros deberán ser devueltos al centro educativo. Si un alumno abandonase antes de la finalización del curso o cursara baja,  los libros deberán ser devueltos de inmediato.
+
+-Será recomendable el uso de agenda para realizar todo tipo de anotaciones que anteriormente se hacían en el libro.
+
+## LISTADO DE LIBROS DE TEXTO 25/26
+
+[Documento con el listado de los libros del curso actual](https://docs.google.com/spreadsheets/d/1-DwRph4dCdZr5hiI9Jg9eGgH4YAuqw83KUwyNpE16lo/edit?gid=0#gid=0)
+
+
+# Encuestas de evaluación
+
+## Encuestas para alumnos
+
+SOBRE EL CENTRO
+SOBRE EL EQUIPO DIRECTIVO
+SOBRE TUTORES Y TUTORÍA
+SOBRE LOS PROFESORES Y LA PRÁCTICA DOCENTE
+SOBRE LA FCT Y PRÁCTICAS EN EMPRESAS
+
+## Encuestas para familias
+
+SOBRE EL CENTRO
+SOBRE EL EQUIPO DIRECTIVO
+SOBRE TUTORES Y TUTORÍA
+
+## ENCUESTAS PARA EMPRESAS E INSTITUCIONES
+
+PARA EMPRESAS E INSTITUCIONES: SOBRE LA FCT Y PRÁCTICAS
