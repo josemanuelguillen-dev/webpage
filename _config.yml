@@ -3,6 +3,7 @@ description: Página creada con Jekyll y GitHub Pages
 # remote_theme: mmistakes/minimal-mistakes@4.33.0
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 minimal_mistakes_skin: "aqua" # "default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+site.locale: "es-ES"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
