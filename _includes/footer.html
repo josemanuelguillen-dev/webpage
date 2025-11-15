@@ -15,10 +15,11 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-          <li><a href="https://twitter.com/fpsalceda" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> X</a></li>
+          <li><a href="https://twitter.com/fpsalceda" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-x-square" aria-hidden="true"></i> X</a></li>
           <li><a href="https://instagram.com/fpsalceda" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
     {% unless site.atom_feed.hide %}
-      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+<!--      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+-->
     {% endunless %}
   </ul>
 </div>
