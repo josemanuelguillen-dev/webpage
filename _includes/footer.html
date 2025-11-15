@@ -15,7 +15,8 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-
+          <li><a href="https://twitter.com/fpsalceda" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> X</a></li>
+          <li><a href="https://instagram.com/fpsalceda" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
@@ -23,5 +24,3 @@
 </div>
 {% endif %}
 <div class="page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>.</div>
-
-<div class="fuera_page__footer-copyright">&copy; {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
