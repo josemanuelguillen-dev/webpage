@@ -1,9 +1,7 @@
 ---
 layout: single
-title: Noticias
-permalink: /noticias/
+title: Blog
+permalink: /blog/
 ---
-
-# Noticias
 
 Sección con las noticias oficiales del nuestro centro educativo.
