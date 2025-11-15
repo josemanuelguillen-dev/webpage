@@ -10,4 +10,9 @@ header:
 caption: ""
 excerpt: ""
 ---
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13/dist/gsap.min.js"></script>
+<script>
+  // Ejemplo de animación básica
+  gsap.to(".miElemento", { x: 100, duration: 2, rotation: 45 });
+</script>
 
