@@ -16,3 +16,7 @@ excerpt: ""
   gsap.to(".miElemento", { x: 100, duration: 2, rotation: 45 });
 </script>
 
+<div class="miElemento">
+  <p>Esto es un texto de prueba para ver el efecto creado</p>
+</div>
+
