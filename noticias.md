@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tag
 title: Blog
 permalink: /blog/
 ---
