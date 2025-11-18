@@ -1,15 +1,8 @@
 <style>
-  body, html {
-    margin: 0!important; padding: 0!important;
-    height: 100%!important;
-    transition: background-color 0.5s ease!important;
-    font-family: Arial, sans-serif!important;
-  }
-  section {
-    height: 100vh!important;
-    display: flex!important; align-items: center!important; justify-content: center!important;
-    font-size: 3em!important; color: white!important;
-  }
+  .page, .initial-content, .archive, .page__content, .wrapper {
+  background: transparent !important;
+}
+
 </style>
 <meta charset="utf-8">
 
@@ -31,7 +24,6 @@
     gsap.to("#box", { duration: 1.5, x: 200, rotation: 360, ease: "power2.inOut" });
     -->
     gsap.registerPlugin(ScrollTrigger);
-  
     const sections = document.querySelectorAll("section");
     const body = document.body;
   
@@ -40,8 +32,8 @@
         trigger: section,
         start: "top center",
         end: "bottom center",
-        onEnter: () => gsap.to(body, { backgroundColor: section.dataset.bg, duration: 0.5 }),
-        onEnterBack: () => gsap.to(body, { backgroundColor: section.dataset.bg, duration: 0.5 }),
+        onEnter: () => gsap.to(body, { backgroundColor: section.dataset.bg, duration: 0.7 }),
+        onEnterBack: () => gsap.to(body, { backgroundColor: section.dataset.bg, duration: 0.7 }),
       });
     });
 
