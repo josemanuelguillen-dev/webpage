@@ -16,7 +16,7 @@ excerpt: ""
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
-<img src="/assets/images/LOGO_FP_SALCEDA9.jpg" />
+<p><img src="/assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
@@ -33,7 +33,7 @@ Minimal Mistakes
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
-<img src="/assets/images/LOGO_FP_SALCEDA9.jpg" />
+<p><img src="/assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
 
 Minimal Mistakes
 </section>
@@ -46,7 +46,7 @@ Minimal Mistakes
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
 <p>Esto es un parrafo de prueba</p>
-<img src="/assets/images/LOGO_FP_SALCEDA9.jpg" />
+<p><img src="/assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
 
 Minimal Mistakes
 </section>
