@@ -20,8 +20,38 @@
     <!-- NUESTRO CODIGO GSAP VA AQUI, UNA VEZ QUE SE HAYA CARGADO TODO EL DOM -->
     gsap.to("#box", { duration: 1.5, x: 200, rotation: 360, ease: "power2.inOut" });
     <!-- Registro el plugin que voy a utilizar -->
-    gsap.registerPlugin(ScrollTrigger);
-    <!-- Le doy la funcionalidad que quiero -->
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+  
+  // Secciones con clase "scroll-section"
+	const sections = document.querySelectorAll('.scroll-section');
+
+	sections.forEach((section, i) => {
+		// Marcar la sección actual
+		ScrollTrigger.create({
+			trigger: section,
+			start: "top center",
+			end: "bottom center",
+			onEnter: () => section.classList.add('active'),
+			onLeave: () => section.classList.remove('active'),
+			onEnterBack: () => section.classList.add('active'),
+			onLeaveBack: () => section.classList.remove('active'),
+		});
+
+		// Animación al entrar
+		gsap.from(section.children, {
+			opacity: 0,
+			y: 50,
+			duration: 0.8,
+			stagger: 0.1,
+			scrollTrigger: {
+				trigger: section,
+				start: "top 80%",
+				toggleActions: "play none none reverse"
+			}
+		});
+	});
+
+  <!-- Le doy la funcionalidad que quiero -->
   // Efecto de scroll
   // Animación universal para elementos con clase .animate-on-scroll
   gsap.utils.toArray(".animate-on-scroll").forEach(el => {
@@ -35,7 +65,8 @@
         toggleActions: "play none none reverse"
       }
     });
-  }); 
+  });
+
   // Efectos aleatorios - ¡se elige uno nuevo cada recarga!
   const magicEffects = [
     // 1. 🎪 Bounce + giro loco
