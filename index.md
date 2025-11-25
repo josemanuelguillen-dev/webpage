@@ -12,7 +12,7 @@ excerpt: ""
 ---
 
 <div id="box" style="display: none; width:100px; height:100px; background-color:#3498db; margin: 50px auto;"></div>
-<div class="page__content">
+
   <section class="animate-on-scroll" data-bg="#e0e0e0" style="background:#e0e0e0;">Sección 1
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
@@ -53,4 +53,3 @@ excerpt: ""
     
     Minimal Mistakes
   </section>
-</div>
