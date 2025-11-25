@@ -25,6 +25,7 @@ excerpt: ""
      
     Minimal Mistakes
   </section>
+  
   <section class="animate-on-scroll" data-bg="#f3f3f3" style="background:#f3f3f3;">Sección 2
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
@@ -38,6 +39,7 @@ excerpt: ""
     
     Minimal Mistakes
   </section>
+  
   <section class="page_animate-on-scroll" data-bg="#e1e1e1" style="background:#e1e1e1;">Sección 3
     <p>Esto es un parrafo de prueba</p>
      <p>Esto es un parrafo de prueba</p>
