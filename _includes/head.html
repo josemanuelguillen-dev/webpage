@@ -19,6 +19,20 @@
     <!-- Registro el plugin que voy a utilizar -->
     gsap.registerPlugin(ScrollTrigger);
     <!-- Le doy la funcionalidad que quiero -->
+  // Efecto de scroll
+  // Animación universal para elementos con clase .animate-on-scroll
+  gsap.utils.toArray(".animate-on-scroll").forEach(el => {
+    gsap.from(el, {
+      opacity: 0,
+      y: 40,
+      duration: 0.8,
+      scrollTrigger: {
+        trigger: el,
+        start: "top 85%",
+        toggleActions: "play none none reverse"
+      }
+    });
+  }); 
   // Efectos aleatorios - ¡se elige uno nuevo cada recarga!
   const magicEffects = [
     // 1. 🎪 Bounce + giro loco
