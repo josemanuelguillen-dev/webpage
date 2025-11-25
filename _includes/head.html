@@ -19,14 +19,68 @@
     <!-- Registro el plugin que voy a utilizar -->
     gsap.registerPlugin(ScrollTrigger);
     <!-- Le doy la funcionalidad que quiero -->
-    gsap.from(".animar-imagen", {
-      opacity: 0,
-      rotation: -5,
-      y: 60,
-      duration: 1,
-      scrollTrigger: ".animar-imagen"
-    });
+  // Efectos aleatorios - ¡se elige uno nuevo cada recarga!
+  const magicEffects = [
+    // 1. 🎪 Bounce + giro loco
+    (el) => gsap.fromTo(el, 
+      {opacity: 0, scale: 0, rotation: gsap.utils.random(-180, 180)},
+      {opacity: 1, scale: 1, rotation: 0, duration: 1.5, ease: "bounce.out"}
+    ),
+    
+    // 2. 🚀 Slide sorpresa (izquierda/derecha)
+    (el) => gsap.fromTo(el,
+      {opacity: 0, x: gsap.utils.random(-200, 200)},
+      {opacity: 1, x: 0, duration: 1.2, ease: "elastic.out(1, 0.5)"}
+    ),
+    
+    // 3. 🎨 Flip 3D
+    (el) => gsap.fromTo(el,
+      {opacity: 0, rotationY: 90, scale: 0.8},
+      {opacity: 1, rotationY: 0, scale: 1, duration: 1, ease: "back.out(1.7)"}
+    ),
+    
+    // 4. 🫧 Blob reveal (morphing circular)
+    (el) => gsap.fromTo(el,
+      {opacity: 0, clipPath: "circle(0%)", scale: 0.5},
+      {opacity: 1, clipPath: "circle(100%)", scale: 1, duration: 1.5, ease: "power2.inOut"}
+    ),
+    
+    // 5. 🎭 Stagger slide + rotación aleatoria
+    (el, index) => gsap.fromTo(el,
+      {opacity: 0, y: -50, rotation: gsap.utils.random(-10, 10)},
+      {opacity: 1, y: 0, rotation: 0, duration: 1, delay: index * 0.1, ease: "power3.out"}
+    )
+  ];
+  
+  // Aplicar a todas las imágenes con clase "magic-image"
+  document.querySelectorAll('.magic-image').forEach((img, index) => {
+    const loadHandler = () => {
+      // 🎲 ¡Efecto ALEATORIO!
+      const effect = magicEffects[Math.floor(Math.random() * magicEffects.length)];
+      effect(img, index);
+      
+      // Hover gracioso: crece y se inclina un poco
+      img.addEventListener('mouseenter', () => {
+        gsap.to(img, {scale: 1.08, rotation: gsap.utils.random(-3, 3), duration: 0.3, ease: "power2.out"});
+      });
+      
+      img.addEventListener('mouseleave', () => {
+        gsap.to(img, {scale: 1, rotation: 0, duration: 0.3, ease: "power2.out"});
+      });
+      
+      // Click sorpresa: "boing!" invertido
+      img.addEventListener('click', () => {
+        gsap.timeline()
+          .to(img, {scale: 0.92, duration: 0.08})
+          .to(img, {scale: 1.05, duration: 0.15, ease: "back.out(4)"})
+          .to(img, {scale: 1, duration: 0.1});
+      });
+    };
+    
+    // Aplicar efecto cuando la imagen cargue
+    img.complete ? loadHandler() : img.addEventListener('load', loadHandler);
   });
+ });
 </script>
 <!-- GSAP FIN de la prueba  -->
 
