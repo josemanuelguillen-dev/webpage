@@ -17,7 +17,7 @@ excerpt: ""
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
-    <p><img class="animar-imagen" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
+    <p><img class="magic-image" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
@@ -34,7 +34,7 @@ excerpt: ""
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
-   <p><img class="animar-imagen" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
+    <p><img class="magic-image" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
    </section>
   
   <section class="page_animate-on-scroll" data-bg="#e1e1e1" style="background:#e1e1e1;">Sección 3
@@ -46,5 +46,5 @@ excerpt: ""
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
     <p>Esto es un parrafo de prueba</p>
-    <p><img class="animar-imagen" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
+    <p><img class="magic-image" src="assets/images/LOGO_FP_SALCEDA9.jpg" /></p>
    </section>
