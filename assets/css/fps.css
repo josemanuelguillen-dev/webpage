@@ -1,9 +1,30 @@
+/* En /_sass/_custom.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+// Contenedor de secciones
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh; // Cada sección ocupa pantalla completa
+}
+
+// Cada sección
+.scroll-section {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/*  Micro-interacciones en botones: */
 .boton-magico {
   position: relative;
   overflow: hidden;
   
-/*  Micro-interacciones en botones: */
-
   &::before {
     content: '';
     position: absolute;
