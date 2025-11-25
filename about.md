@@ -69,7 +69,7 @@ Por lo tanto las actividades lectivas del Centro comenzarán a la 8:00 horas de 
 
 ## Calendario 2025/26
 
-[Calendario escolar](https://docs.google.com/spreadsheets/d/1e7MxUE9-n5p8SkQr96rOh2rcyTZyXdMp/edit?gid=1946417995#gid=1946417995])
+[Calendario escolar](https://docs.google.com/spreadsheets/d/1h7fRIVXrwkEpizuSKF5jkEmcTN9h4TxD/edit?gid=1509344273#gid=1509344273)
 
 # Libros de texto
 
