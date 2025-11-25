@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
   
+/*  Micro-interacciones en botones: */
+
   &::before {
     content: '';
     position: absolute;
@@ -18,5 +20,17 @@
   &:hover::before {
     width: 300px;
     height: 300px;
+  }
+}
+
+/* efectos de seccion */
+.scroll-section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+  
+  &.active {
+    opacity: 1;
   }
 }
