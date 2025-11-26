@@ -21,9 +21,101 @@
     <!-- NUESTRO CODIGO GSAP VA AQUI, UNA VEZ QUE SE HAYA CARGADO TODO EL DOM -->
     gsap.to("#box", { duration: 1.5, x: 200, rotation: 360, ease: "power2.inOut" });
     <!-- Registro el plugin que voy a utilizar -->
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-  
-  // Secciones con clase "scroll-section"
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin,ScrollSmoother);
+    // IMagenes guapas
+	const smoother = ScrollSmoother.create({
+	  smooth: 2,
+	  speed: 2,
+	  effects: true,
+	 // normalizeScroll: true,
+	  smoothTouch: 0.1,
+	});
+	
+	let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
+	let byGreensock = document.querySelector("#by-greensock");
+	
+	let distPaths = gsap.utils.distribute({
+	  base: -300,
+	  amount: 600,
+	});
+	
+	let logoTl = gsap.timeline({
+	  scrollTrigger: {
+	    trigger: ".logo-section",
+	    scrub: 1,
+	    start: "bottom 95%",
+	    end: "bottom center"
+	  }
+	});
+	
+	logoTl.to(paths, { x: distPaths })
+	  .to([...paths, byGreensock], { opacity: 0 }, 0)
+	
+	let gridTl = gsap.timeline({
+	  scrollTrigger: {
+	    trigger: ".grid-section",
+	    scrub: 1,
+	    start: "top center",
+	    end: "bottom+=10% bottom",
+	  },
+	  defaults: {
+	    ease: "power1.inOut"
+	  }
+	});
+	
+	gridTl.add("start")
+	  .from(".grid-layout", {
+	    ease: "power1",
+	    scale: 3
+	  }, "start")
+	  .from(".column-1 .grid-image", {
+	    duration: 0.6,
+	    xPercent: i => -((i + 1) * 40 + i * 100),
+	    yPercent: i => (i + 1) * 40 + i * 100
+	  }, "start")
+	  .from(".column-3 .grid-image", {
+	    duration: 0.6,
+	    xPercent: i => (i + 1) * 40 + i * 100,
+	    yPercent: i => (i + 1) * 40 + i * 100
+	  }, "start");
+	
+	gsap.from(".parallax-section", {
+	  scale: 1/3,
+	  scrollTrigger: {
+	    trigger: ".parallax-section",
+	    scrub: 1
+	  }
+	});
+	
+	let pinSection = document.querySelector(".pin-section")
+	let pinContent1 = document.querySelector(".pin-content-1")
+	let pinContent2 = document.querySelector(".pin-content-2")
+	
+	let pinTl = gsap.timeline({
+	  scrollTrigger: {
+	    pin: true,
+	    trigger: pinSection,
+	    scrub: true,
+	    start: "top top",
+	    end: () => `$+=${pinContent1.offsetWidth}`,
+	    invalidateOnRefresh: true
+	  }
+	});
+	
+	pinTl.fromTo(".pin-content-1", {
+	  x: () => document.body.clientWidth * 0.9
+	}, {
+	  x: () => -(pinContent1.offsetWidth),
+	  ease: "none"
+	}, 0)
+	
+	pinTl.fromTo(".pin-content-2", {
+	  x: () => -pinContent2.offsetWidth + document.body.clientWidth * 0.1
+	}, {
+	  x: () => document.body.clientWidth, 
+	  ease: "none"
+	}, 0);
+    // Secciones con clase "scroll-section"
 	const sections = document.querySelectorAll('.scroll-section');
 
 	sections.forEach((section, i) => {
