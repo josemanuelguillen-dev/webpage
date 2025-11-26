@@ -150,4 +150,5 @@
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
+	{% include search_form.html %}
 {% endif %}
