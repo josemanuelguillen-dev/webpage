@@ -66,12 +66,9 @@ html {
   src: url(https://assets.codepen.io/16327/PPMori-Regular.woff) format("woff");
 }
 
-* {
+.scroll_demo {
   position: relative;
   box-sizing: border-box;
-}
-
-body {
   background: #222;
   font-family: "Mori";
   font-size:24px;
