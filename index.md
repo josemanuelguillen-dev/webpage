@@ -10,6 +10,7 @@ header:
 caption: ""
 excerpt: ""
 ---
+<div id="scroll_demo">
 <div id="smooth-wrapper">
   <div id="smooth-content">
     <div class="logo-section">
@@ -213,4 +214,5 @@ excerpt: ""
       Pretty smooth, huh?
     </div>
   </div>
+</div>
 </div>
