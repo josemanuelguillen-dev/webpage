@@ -137,13 +137,13 @@ excerpt: ""
         <div class="column column-1" data-speed="1.1">
           <div class="column-content">
             <div class="grid-image">
-              <img class="animar-imagen" src="https://picsum.photos/800?random=1" alt="">
+              <img src="https://picsum.photos/800?random=1" alt="">
             </div>
             <div class="grid-image">
-              <img class="animar-imagen" src="https://picsum.photos/800?random=2" alt="">
+              <img src="https://picsum.photos/800?random=2" alt="">
             </div>
             <div class="grid-image">
-              <img class="animar-imagen" src="https://picsum.photos/800?random=3" alt="">
+              <img src="https://picsum.photos/800?random=3" alt="">
             </div>
           </div>
         </div>
