@@ -27,10 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	  constructor(options = {}) {
 		// Crear instancia Lenis con opciones personalizables
 		this.lenis = new Lenis({
-		  lerp: options.smooth || 0.1,          // entre 0.05 y 0.15 para ajustar suavidad
-		  wheelMultiplier: options.wheelMultiplier || 1, // ajuste según velocidad deseada
+		  // lerp: options.smooth || 0.1,          // entre 0.05 y 0.15 para ajustar suavidad
+		  lerp: 0.15,
+		  wheelMultiplier: 3,
+		  // wheelMultiplier: options.wheelMultiplier || 1, // ajuste según velocidad deseada
 		  smoothWheel: options.effects !== false,
 		  easing: t => t*(2-t),
+		  touchMultiplier: 3,
 		});
 
 
