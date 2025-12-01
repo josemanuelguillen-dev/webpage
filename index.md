@@ -14,7 +14,7 @@ excerpt: ""
 <div id="smooth-wrapper">
   <div id="smooth-content">
     <div class="logo-section">
-      <svg style="display:none" version="1.1" id="scroll-smoother-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 827 238">
+      <svg version="1.1" id="scroll-smoother-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 827 238">
         <g id="logo-scroll-smoother">
           <g id="logo-scroll">
             <path class="scroll-letter" d="M27.73 50.27L21.75 50.27L4.52 17.75L4.52 50.27L0 50.27L0 13.92L7.50 13.92L23.22 43.60L23.22 13.92L27.73 13.92L27.73 50.27Z"/>
