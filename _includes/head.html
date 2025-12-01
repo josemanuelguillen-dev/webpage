@@ -65,11 +65,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 	// IMagenes guapas
 	const smoother = ScrollSmoother.create({
-	 // smooth: 2,
+	  smooth: 2,
 	  speed: 2,
 	  effects: true,
 	 //// normalizeScroll: true,
-	 // smoothTouch: 0.1,
+	  smoothTouch: 0.1,
 	});
 
 	let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
