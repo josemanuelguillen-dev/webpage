@@ -14,111 +14,149 @@
 
 <!-- GSAP INICIO de la prueba  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollSmoother.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
-<script src="https://cdn.skypack.dev/gsap@3.12.2/ScrollSmoother.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    <!-- NUESTRO CODIGO GSAP VA AQUI, UNA VEZ QUE SE HAYA CARGADO TODO EL DOM -->
-    <!-- gsap.to("#box", { duration: 1.5, x: 200, rotation: 360, ease: "power2.inOut" }); -->
-    <!-- Registro el plugin que voy a utilizar -->
-	gsap.registerPlugin(ScrollSmoother);
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-    // IMagenes guapas
+document.addEventListener('DOMContentLoaded', function() {
+	<!-- NUESTRO CODIGO GSAP VA AQUI, UNA VEZ QUE SE HAYA CARGADO TODO EL DOM -->
+	<!-- gsap.to("#box", { duration: 1.5, x: 200, rotation: 360, ease: "power2.inOut" }); -->
+	<!-- Registro el plugin que voy a utilizar -->
+
+	class ScrollSmoother {
+	  constructor(options = {}) {
+		// Crear instancia Lenis con opciones personalizables
+		this.lenis = new Lenis({
+		  duration: options.speed || 1.2,
+		  easing: t => t*(2-t), // easing similar smooth
+		  smoothWheel: options.effects || true,
+		  ...options
+		});
+
+		// Vincular el método raf al loop de animación
+		this._raf = this._raf.bind(this);
+		requestAnimationFrame(this._raf);
+	  }
+
+	  _raf(time) {
+		this.lenis.raf(time);
+		requestAnimationFrame(this._raf);
+	  }
+
+	  static create(options) {
+		return new ScrollSmoother(options);
+	  }
+
+	  // Métodos para registrar efectos o plugins
+	  // Simular registerPlugin no es necesario con Lenis
+
+	  // Puedes agregar métodos adicionales según necesites
+	  scrollTo(target, opts) {
+		this.lenis.scrollTo(target, opts);
+	  }
+
+	  // Exponer otras propiedades de Lenis si quieres
+	  get scroll() {
+		return this.lenis.scroll;
+	  }
+	}
+
+	//gsap.registerPlugin(ScrollSmoother);
+	gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+	// IMagenes guapas
 	const smoother = ScrollSmoother.create({
-	  smooth: 2,
+	 // smooth: 2,
 	  speed: 2,
 	  effects: true,
-	 // normalizeScroll: true,
-	  smoothTouch: 0.1,
+	 //// normalizeScroll: true,
+	 // smoothTouch: 0.1,
 	});
-	
+
 	let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
 	let byGreensock = document.querySelector("#by-greensock");
-	
+
 	let distPaths = gsap.utils.distribute({
 	  base: -300,
 	  amount: 600,
 	});
-	
+
 	let logoTl = gsap.timeline({
 	  scrollTrigger: {
-	    trigger: ".logo-section",
-	    scrub: 1,
-	    start: "bottom 95%",
-	    end: "bottom center"
+		trigger: ".logo-section",
+		scrub: 1,
+		start: "bottom 95%",
+		end: "bottom center"
 	  }
 	});
-	
+
 	logoTl.to(paths, { x: distPaths })
 	  .to([...paths, byGreensock], { opacity: 0 }, 0)
-	
+
 	let gridTl = gsap.timeline({
 	  scrollTrigger: {
-	    trigger: ".grid-section",
-	    scrub: 1,
-	    start: "top center",
-	    end: "bottom+=10% bottom",
+		trigger: ".grid-section",
+		scrub: 1,
+		start: "top center",
+		end: "bottom+=10% bottom",
 	  },
 	  defaults: {
-	    ease: "power1.inOut"
+		ease: "power1.inOut"
 	  }
 	});
-	
+
 	gridTl.add("start")
 	  .from(".grid-layout", {
-	    ease: "power1",
-	    scale: 3
+		ease: "power1",
+		scale: 3
 	  }, "start")
 	  .from(".column-1 .grid-image", {
-	    duration: 0.6,
-	    xPercent: i => -((i + 1) * 40 + i * 100),
-	    yPercent: i => (i + 1) * 40 + i * 100
+		duration: 0.6,
+		xPercent: i => -((i + 1) * 40 + i * 100),
+		yPercent: i => (i + 1) * 40 + i * 100
 	  }, "start")
 	  .from(".column-3 .grid-image", {
-	    duration: 0.6,
-	    xPercent: i => (i + 1) * 40 + i * 100,
-	    yPercent: i => (i + 1) * 40 + i * 100
+		duration: 0.6,
+		xPercent: i => (i + 1) * 40 + i * 100,
+		yPercent: i => (i + 1) * 40 + i * 100
 	  }, "start");
-	
+
 	gsap.from(".parallax-section", {
 	  scale: 1/3,
 	  scrollTrigger: {
-	    trigger: ".parallax-section",
-	    scrub: 1
+		trigger: ".parallax-section",
+		scrub: 1
 	  }
 	});
-	
+
 	let pinSection = document.querySelector(".pin-section")
 	let pinContent1 = document.querySelector(".pin-content-1")
 	let pinContent2 = document.querySelector(".pin-content-2")
-	
+
 	let pinTl = gsap.timeline({
 	  scrollTrigger: {
-	    pin: true,
-	    trigger: pinSection,
-	    scrub: true,
-	    start: "top top",
-	    end: () => `$+=${pinContent1.offsetWidth}`,
-	    invalidateOnRefresh: true
+		pin: true,
+		trigger: pinSection,
+		scrub: true,
+		start: "top top",
+		end: () => `$+=${pinContent1.offsetWidth}`,
+		invalidateOnRefresh: true
 	  }
 	});
-	
+
 	pinTl.fromTo(".pin-content-1", {
 	  x: () => document.body.clientWidth * 0.9
 	}, {
 	  x: () => -(pinContent1.offsetWidth),
 	  ease: "none"
 	}, 0)
-	
+
 	pinTl.fromTo(".pin-content-2", {
 	  x: () => -pinContent2.offsetWidth + document.body.clientWidth * 0.1
 	}, {
 	  x: () => document.body.clientWidth, 
 	  ease: "none"
 	}, 0);
-    // Secciones con clase "scroll-section"
+	// Secciones con clase "scroll-section"
 	const sections = document.querySelectorAll('.scroll-section');
 
 	sections.forEach((section, i) => {
@@ -147,83 +185,83 @@
 		});
 	});
 
-  <!-- Le doy la funcionalidad que quiero -->
-  // Efecto de scroll
-  // Animación universal para elementos con clase .animate-on-scroll
-  gsap.utils.toArray(".animate-on-scroll").forEach(el => {
-    gsap.from(el, {
-      opacity: 0,
-      y: 40,
-      duration: 0.8,
-      scrollTrigger: {
-        trigger: el,
-        start: "top 85%",
-        toggleActions: "play none none reverse"
-      }
-    });
-  });
+	<!-- Le doy la funcionalidad que quiero -->
+	// Efecto de scroll
+	// Animación universal para elementos con clase .animate-on-scroll
+	gsap.utils.toArray(".animate-on-scroll").forEach(el => {
+		gsap.from(el, {
+		  opacity: 0,
+		  y: 40,
+		  duration: 0.8,
+		  scrollTrigger: {
+			trigger: el,
+			start: "top 85%",
+			toggleActions: "play none none reverse"
+		  }
+		});
+	});
 
-  // Efectos aleatorios - ¡se elige uno nuevo cada recarga!
-  const magicEffects = [
-    // 1. 🎪 Bounce + giro loco
-    (el) => gsap.fromTo(el, 
-      {opacity: 0, scale: 0, rotation: gsap.utils.random(-180, 180)},
-      {opacity: 1, scale: 1, rotation: 0, duration: 1.5, ease: "bounce.out"}
-    ),
-    
-    // 2. 🚀 Slide sorpresa (izquierda/derecha)
-    (el) => gsap.fromTo(el,
-      {opacity: 0, x: gsap.utils.random(-200, 200)},
-      {opacity: 1, x: 0, duration: 1.2, ease: "elastic.out(1, 0.5)"}
-    ),
-    
-    // 3. 🎨 Flip 3D
-    (el) => gsap.fromTo(el,
-      {opacity: 0, rotationY: 90, scale: 0.8},
-      {opacity: 1, rotationY: 0, scale: 1, duration: 1, ease: "back.out(1.7)"}
-    ),
-    
-    // 4. 🫧 Blob reveal (morphing circular)
-    (el) => gsap.fromTo(el,
-      {opacity: 0, clipPath: "circle(0%)", scale: 0.5},
-      {opacity: 1, clipPath: "circle(100%)", scale: 1, duration: 1.5, ease: "power2.inOut"}
-    ),
-    
-    // 5. 🎭 Stagger slide + rotación aleatoria
-    (el, index) => gsap.fromTo(el,
-      {opacity: 0, y: -50, rotation: gsap.utils.random(-10, 10)},
-      {opacity: 1, y: 0, rotation: 0, duration: 1, delay: index * 0.1, ease: "power3.out"}
-    )
-  ];
-  
-  // Aplicar a todas las imágenes con clase "magic-image"
-  document.querySelectorAll('.magic-image').forEach((img, index) => {
-    const loadHandler = () => {
-      // 🎲 ¡Efecto ALEATORIO!
-      const effect = magicEffects[Math.floor(Math.random() * magicEffects.length)];
-      effect(img, index);
-      
-      // Hover gracioso: crece y se inclina un poco
-      img.addEventListener('mouseenter', () => {
-        gsap.to(img, {scale: 1.08, rotation: gsap.utils.random(-3, 3), duration: 0.3, ease: "power2.out"});
-      });
-      
-      img.addEventListener('mouseleave', () => {
-        gsap.to(img, {scale: 1, rotation: 0, duration: 0.3, ease: "power2.out"});
-      });
-      
-      // Click sorpresa: "boing!" invertido
-      img.addEventListener('click', () => {
-        gsap.timeline()
-          .to(img, {scale: 0.92, duration: 0.08})
-          .to(img, {scale: 1.05, duration: 0.15, ease: "back.out(4)"})
-          .to(img, {scale: 1, duration: 0.1});
-      });
-    };
-    
-    // Aplicar efecto cuando la imagen cargue
-    img.complete ? loadHandler() : img.addEventListener('load', loadHandler);
-  });
+	// Efectos aleatorios - ¡se elige uno nuevo cada recarga!
+	const magicEffects = [
+		// 1. 🎪 Bounce + giro loco
+		(el) => gsap.fromTo(el, 
+		  {opacity: 0, scale: 0, rotation: gsap.utils.random(-180, 180)},
+		  {opacity: 1, scale: 1, rotation: 0, duration: 1.5, ease: "bounce.out"}
+		),
+
+		// 2. 🚀 Slide sorpresa (izquierda/derecha)
+		(el) => gsap.fromTo(el,
+		  {opacity: 0, x: gsap.utils.random(-200, 200)},
+		  {opacity: 1, x: 0, duration: 1.2, ease: "elastic.out(1, 0.5)"}
+		),
+
+		// 3. 🎨 Flip 3D
+		(el) => gsap.fromTo(el,
+		  {opacity: 0, rotationY: 90, scale: 0.8},
+		  {opacity: 1, rotationY: 0, scale: 1, duration: 1, ease: "back.out(1.7)"}
+		),
+
+		// 4. 🫧 Blob reveal (morphing circular)
+		(el) => gsap.fromTo(el,
+		  {opacity: 0, clipPath: "circle(0%)", scale: 0.5},
+		  {opacity: 1, clipPath: "circle(100%)", scale: 1, duration: 1.5, ease: "power2.inOut"}
+		),
+
+		// 5. 🎭 Stagger slide + rotación aleatoria
+		(el, index) => gsap.fromTo(el,
+		  {opacity: 0, y: -50, rotation: gsap.utils.random(-10, 10)},
+		  {opacity: 1, y: 0, rotation: 0, duration: 1, delay: index * 0.1, ease: "power3.out"}
+		)
+	];
+
+	// Aplicar a todas las imágenes con clase "magic-image"
+	document.querySelectorAll('.magic-image').forEach((img, index) => {
+		const loadHandler = () => {
+		  // 🎲 ¡Efecto ALEATORIO!
+		  const effect = magicEffects[Math.floor(Math.random() * magicEffects.length)];
+		  effect(img, index);
+		  
+		  // Hover gracioso: crece y se inclina un poco
+		  img.addEventListener('mouseenter', () => {
+			gsap.to(img, {scale: 1.08, rotation: gsap.utils.random(-3, 3), duration: 0.3, ease: "power2.out"});
+		  });
+		  
+		  img.addEventListener('mouseleave', () => {
+			gsap.to(img, {scale: 1, rotation: 0, duration: 0.3, ease: "power2.out"});
+		  });
+		  
+		  // Click sorpresa: "boing!" invertido
+		  img.addEventListener('click', () => {
+			gsap.timeline()
+			  .to(img, {scale: 0.92, duration: 0.08})
+			  .to(img, {scale: 1.05, duration: 0.15, ease: "back.out(4)"})
+			  .to(img, {scale: 1, duration: 0.1});
+		  });
+		};
+	// Aplicar efecto cuando la imagen cargue
+	img.complete ? loadHandler() : img.addEventListener('load', loadHandler);
+	});
+	// Fin de todas las imágenes con clase "magic-image"
  });
 </script>
 <!-- GSAP FIN de la prueba  -->
