@@ -1,6 +1,12 @@
 /* En /_sass/_custom.scss */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto; /* Desactivar nativo, Lenis lo controla */
+}
+
+/* Clases de animación (opcional pero recomendado) */
+.animate-on-scroll,
+.animar-imagen {
+  visibility: hidden; /* Ocultar hasta que GSAP lo muestre */
 }
 
 // Contenedor de secciones
@@ -11,13 +17,13 @@ html {
 }
 
 // Cada sección
+/* Para secciones full-height si quieres scroll por capas */
 .scroll-section {
-  scroll-snap-align: start;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 /*  Micro-interacciones en botones: */
