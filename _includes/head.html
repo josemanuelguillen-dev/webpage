@@ -67,8 +67,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	// IMagenes guapas
 	const smoother = ScrollSmoother.create({
 	  smooth: 0.08,       
-	  wheelMultiplier: 1.5, 
+	  //wheelMultiplier: 1.5, 
+	  //wheelMultiplier: 2, 
 	  effects: true,
+	  syncTouch: true,
 	});
 
 	let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
