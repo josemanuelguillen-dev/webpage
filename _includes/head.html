@@ -27,11 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	  constructor(options = {}) {
 		// Crear instancia Lenis con opciones personalizables
 		this.lenis = new Lenis({
-		  duration: options.speed || 1.2,
-		  easing: t => t*(2-t), // easing similar smooth
-		  smoothWheel: options.effects || true,
-		  ...options
+		  lerp: options.smooth || 0.1,          // entre 0.05 y 0.15 para ajustar suavidad
+		  wheelMultiplier: options.wheelMultiplier || 1, // ajuste según velocidad deseada
+		  smoothWheel: options.effects !== false,
+		  easing: t => t*(2-t),
 		});
+
 
 		// Vincular el método raf al loop de animación
 		this._raf = this._raf.bind(this);
@@ -65,11 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 	// IMagenes guapas
 	const smoother = ScrollSmoother.create({
-	  smooth: 2,
-	  speed: 2,
+	  smooth: 0.08,       
+	  wheelMultiplier: 1.5, 
 	  effects: true,
-	 //// normalizeScroll: true,
-	  smoothTouch: 0.1,
 	});
 
 	let paths = gsap.utils.toArray("#logo-scroll path, #logo-smoother path, #logo-mouse");
