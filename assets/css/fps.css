@@ -151,7 +151,7 @@ svg {
 }
 
 .grid-image img {
-/*  position: absolute;*/
+  position: absolute;
   top: 0;
   left: 0;
 /*  width: 100%; */
@@ -197,7 +197,7 @@ svg {
 }
 
 .scroll-letter {
-  fill: #fff;
+  fill: #000; /* Color de las letras de FP SALCEDA*/
 }
 
 .smoother-letter,
