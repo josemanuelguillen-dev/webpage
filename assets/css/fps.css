@@ -1,12 +1,29 @@
 /* En /_sass/_custom.scss */
-html {
-  scroll-behavior: auto; /* Desactivar nativo, Lenis lo controla */
+html, body {
+  overflow-x: hidden; //NUEVVO
+  overscroll-behavior: none; //NUEVVO
+//  scroll-behavior: auto; /* Desactivar nativo, Lenis lo controla */ // NUEVVO QUITADO
 }
 
 /* Clases de animación (opcional pero recomendado) */
 .animate-on-scroll,
 .animar-imagen {
   visibility: hidden; /* Ocultar hasta que GSAP lo muestre */
+}
+
+/* Mejorar performance en touch  NUEVVO*/
+@media (hover: none) {
+  .animate-on-scroll,
+  .animar-imagen {
+    will-change: transform, opacity;
+  }
+}
+
+/* Desactivar scroll suave en navegadores antiguos NUEVVO */
+@supports not (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 // Contenedor de secciones
